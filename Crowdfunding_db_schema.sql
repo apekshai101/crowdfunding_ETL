@@ -19,8 +19,8 @@ CREATE TABLE subcategory (
 );
 
 CREATE TABLE campaign (
-    cf_id INT(10)   NOT NULL,
-    contact_id INT(10)   NOT NULL,
+    cf_id INT   NOT NULL,
+    contact_id INT   NOT NULL,
     company_name VARCHAR(100)   NOT NULL,
     description TEXT   NOT NULL,
     goal NUMERIC(12,2)   NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE campaign (
 );
 
 CREATE TABLE contacts (
-    contact_id INT(10)   NOT NULL,
+    contact_id INT   NOT NULL,
     first_name VARCHAR(50)   NOT NULL,
     last_name VARCHAR(50)   NOT NULL,
     email VARCHAR(100)   NOT NULL,
